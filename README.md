@@ -22,7 +22,6 @@ Résultat : vos modèles sont partagés avec la communauté, archivés (vous pou
 
 2) depuis chez vous :
 
-
 - créez un compte GitHub (facultatif si vous avez déjà)
 - demandez au Fab Manager de vous ajouter aux contributeurs "open" du groupe SoFABbyTV
 - accédez sur vos machines au repository Git sofab-open-models pour y placer vos propres plans
