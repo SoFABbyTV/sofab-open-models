@@ -1,7 +1,6 @@
-# Projet "bas à sable" de partage de modèles (sofab-open-models)
+# Partage des modèles numériques des ateliers OpenLAB
 
-Répertoire de partage de tous les modèles ouverts réalisés à SoFAB.
-
+Répertoire de partage de tous les modèles ouverts réalisés à SoFAB pendant les créneaux ouverts à tous (OpenLAB).
 
 Déployé sur chaque ordinateur de SoFAB, il permet :
 
@@ -11,3 +10,12 @@ Déployé sur chaque ordinateur de SoFAB, il permet :
 
 - de faire profiter la communauté de ses modèles les plus intéressants
 
+
+## Mode d'emploi
+
+1) sur les postes de travail de SoFAB : 
+
+- demandez
+
+
+2) depuis chez vous :
