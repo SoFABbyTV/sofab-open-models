@@ -6,6 +6,7 @@ Déployé sur chaque ordinateur de SoFAB, il permet :
 
 - de partager ses fichiers d'un poste à l'autre
 - de retrouver chez soi les fichiers modifiés au FabLab
+- de corriger une erreur en accédant à un historique de votre modèle
 - de faire profiter la communauté de ses modèles les plus intéressants
 
 
