@@ -5,7 +5,7 @@ Répertoire de partage de tous les modèles ouverts réalisés à SoFAB pendant 
 Déployé sur chaque ordinateur de SoFAB, il permet :
 
 - de partager ses fichiers d'un poste à l'autre
-- de retrouver chez soi les fichiers exacts, modifiés sur place
+- de retrouver chez soi les fichiers modifiés sur place
 - de faire profiter la communauté de ses modèles les plus intéressants
 
 
