@@ -29,4 +29,15 @@ Résultat : vos modèles sont partagés avec la communauté, archivés (vous pou
 
 Résultat : vous pouvez préparer votre venue à l'OpenLAB de SoFAB en plaçant déjà vos modèles. Ils seront téléchargés automatiquement sur n'importe quelle machine du Fab Lab.
 
+3) et après ??
+
+Attention, les fichiers partagés ne sont pas destinés à rester "en vrac" dans les répertoires de cet espace.
+Quand votre projet est terminé ou déjà bien avancé, vous êtes invités à les retirer et à faire votre propre projet.
+
+- créez un projet GitHub ou demandez au Fab Manager d'en créer un
+- faites une arborescence adaptée (/doc, /src, /plans, /hardware etc...)
+- déplacez vos fichiers vers ce nouveau projet
+- faites un lien (GitHub propose une option spéciale pour cela) afin qu'on y accède facilement
+
+
 
