@@ -2,6 +2,7 @@
 
 Répertoire de partage de tous les modèles ouverts réalisés à SoFAB.
 
+
 Déployé sur chaque ordinateur de SoFAB, il permet :
 
 - de partager ses fichiers d'un poste à l'autre
