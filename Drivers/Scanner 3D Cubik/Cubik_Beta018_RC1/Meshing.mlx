@@ -1,0 +1,20 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Surface Reconstruction: Poisson">
+  <Param type="RichInt" value="10" name="OctDepth" description="Octree Depth" tooltip="Set the depth of the Octree used for extracting the final surface. Suggested range 5..10. Higher numbers mean higher precision in the reconstruction but also higher processing times. Be patient.&#xa;"/>
+  <Param type="RichInt" value="8" name="SolverDivide" description="Solver Divide" tooltip="This integer argument specifies the depth at which a block Gauss-Seidel solver is used to solve the Laplacian equation.&#xa;Using this parameter helps reduce the memory overhead at the cost of a small increase in reconstruction time. &#xa;In practice, the authors have found that for reconstructions of depth 9 or higher a subdivide depth of 7 or 8 can reduce the memory usage.&#xa;The default value is 8.&#xa;"/>
+  <Param type="RichFloat" value="1" name="SamplesPerNode" description="Samples per Node" tooltip="This floating point value specifies the minimum number of sample points that should fall within an octree node as the octree&#xa;construction is adapted to sampling density. For noise-free samples, small values in the range [1.0 - 5.0] can be used.&#xa;For more noisy samples, larger values in the range [15.0 - 20.0] may be needed to provide a smoother, noise-reduced, reconstruction.&#xa;The default value is 1.0."/>
+  <Param type="RichFloat" value="1" name="Offset" description="Surface offsetting" tooltip="This floating point value specifies a correction value for the isosurface threshold that is chosen.&#xa;Values &lt; 1 means internal offsetting, >1 external offsetting.Good values are in the range 0.5 .. 2.&#xa;The default value is 1.0 (no offsetting)."/>
+ </filter>
+ <filter name="Vertex Attribute Transfer">
+  <Param type="RichMesh" value="0" name="SourceMesh" description="Source Mesh" tooltip="The mesh that contains the source data that we want to transfer."/>
+  <Param type="RichMesh" value="1" name="TargetMesh" description="Target Mesh" tooltip="The mesh whose vertexes will receive the data from the source."/>
+  <Param type="RichBool" value="false" name="GeomTransfer" description="Transfer Geometry" tooltip="if enabled, the position of each vertex of the target mesh will be snapped onto the corresponding closest point on the source mesh"/>
+  <Param type="RichBool" value="false" name="NormalTransfer" description="Transfer Normal" tooltip="if enabled, the normal of each vertex of the target mesh will get the (interpolated) normal of the corresponding closest point on the source mesh"/>
+  <Param type="RichBool" value="true" name="ColorTransfer" description="Transfer Color" tooltip="if enabled, the color of each vertex of the target mesh will become the color of the corresponding closest point on the source mesh"/>
+  <Param type="RichBool" value="false" name="QualityTransfer" description="Transfer quality" tooltip="if enabled, the quality of each vertex of the target mesh will become the quality of the corresponding closest point on the source mesh"/>
+  <Param type="RichBool" value="false" name="SelectionTransfer" description="Transfer Selection" tooltip="if enabled,  each vertex of the target mesh will be selected if the corresponding closest point on the source mesh falls in a selected face"/>
+  <Param type="RichBool" value="false" name="QualityDistance" description="Store dist. as quality" tooltip="if enabled, we store the distance of the transferred value as in the vertex quality"/>
+  <Param type="RichAbsPerc" min="0" max="56.5553" value="0.56555" name="UpperBound" description="Max Dist Search" tooltip="Sample points for which we do not find anything whithin this distance are rejected and not considered for recovering attributes."/>
+ </filter>
+</FilterScript>
