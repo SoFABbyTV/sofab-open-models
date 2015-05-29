@@ -14,8 +14,8 @@
    height="1052.3622"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="plaque materiauteque 80 x 80 mm - pmma coulé 5mm.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="plaque materiauteque 80 x 80 mm - papier canson 160 gr.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -78,7 +78,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6807415"
-     inkscape:cx="179.86555"
+     inkscape:cx="89.131788"
      inkscape:cy="888.5982"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -97,7 +97,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -206,7 +206,7 @@
        sodipodi:cy="46.755322"
        sodipodi:rx="4.5456862"
        sodipodi:ry="5.0507627"
-       d="m 96.469568,46.755322 c 0,2.789459 -2.035173,5.050762 -4.545686,5.050762 -2.510514,0 -4.545687,-2.261303 -4.545687,-5.050762 0,-2.78946 2.035173,-5.050763 4.545687,-5.050763 2.510513,0 4.545686,2.261303 4.545686,5.050763 z"
+       d="m 96.469568,46.755322 a 4.5456862,5.0507627 0 0 1 -4.545686,5.050762 4.5456862,5.0507627 0 0 1 -4.545687,-5.050762 4.5456862,5.0507627 0 0 1 4.545687,-5.050763 4.5456862,5.0507627 0 0 1 4.545686,5.050763 z"
        transform="matrix(1.153148,0,0,1.0396726,-15.733667,-3.5936221)" />
     <path
        sodipodi:type="arc"
@@ -216,7 +216,7 @@
        sodipodi:cy="46.755322"
        sodipodi:rx="4.5456862"
        sodipodi:ry="5.0507627"
-       d="m 96.469568,46.755322 c 0,2.789459 -2.035173,5.050762 -4.545686,5.050762 -2.510514,0 -4.545687,-2.261303 -4.545687,-5.050762 0,-2.78946 2.035173,-5.050763 4.545687,-5.050763 2.510513,0 4.545686,2.261303 4.545686,5.050763 z"
+       d="m 96.469568,46.755322 a 4.5456862,5.0507627 0 0 1 -4.545686,5.050762 4.5456862,5.0507627 0 0 1 -4.545687,-5.050762 4.5456862,5.0507627 0 0 1 4.545687,-5.050763 4.5456862,5.0507627 0 0 1 4.545686,5.050763 z"
        transform="matrix(1.153148,0,0,1.0396726,161.16518,-3.4352999)" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.88154322;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -340,5 +340,31 @@
          style="font-size:22px;line-height:92.00000167%"
          id="flowPara3990-5">500PPI</flowPara><flowPara
          style="font-size:22px;line-height:92.00000167%"
-         id="flowPara3992-7" /></flowRoot>  </g>
+         id="flowPara3992-7" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3936-24"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:129.99999523%;font-family:GOTHIC;-inkscape-font-specification:GOTHIC;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0,-1,1,0,-95.42583,427.27642)"><flowRegion
+         id="flowRegion3938-70"><rect
+           id="rect3940-7"
+           width="123.15992"
+           height="19.039209"
+           x="65.447304"
+           y="142.04968"
+           style="font-size:12.5px;line-height:129.99999523%;text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara3948-9"
+         style="font-size:12.5px;line-height:129.99999523%;text-align:end;text-anchor:end">GRAVURE</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3936-24-4"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:129.99999523%;font-family:GOTHIC;-inkscape-font-specification:GOTHIC;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0,-1,1,0,-95.80354,344.52646)"><flowRegion
+         id="flowRegion3938-70-3"><rect
+           id="rect3940-7-1"
+           width="123.15992"
+           height="19.039209"
+           x="65.447304"
+           y="142.04968"
+           style="font-size:12.5px;line-height:129.99999523%;text-align:end;text-anchor:end" /></flowRegion><flowPara
+         id="flowPara3948-9-4"
+         style="font-size:12.5px;line-height:129.99999523%;text-align:end;text-anchor:end">DECOUPE</flowPara></flowRoot>  </g>
 </svg>
