@@ -77,9 +77,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6807415"
-     inkscape:cx="143.94723"
-     inkscape:cy="888.5982"
+     inkscape:zoom="3.361483"
+     inkscape:cx="195.87254"
+     inkscape:cy="979.84163"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -97,7 +97,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -106,13 +106,11 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-2.5390623e-6)">
-    <rect
-       style="fill:none;stroke:#0000ff;stroke-width:0.01281407;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-       id="rect2985"
-       width="283.41165"
-       height="37.055183"
-       x="37.106796"
-       y="19.798941" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0107441;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.105469 19.798828 L 37.105469 45.847656 L 79.78125 45.847656 A 10.539395 10.548253 0 0 0 90.300781 55.875 A 10.539395 10.548253 0 0 0 100.81445 45.847656 L 256.68359 45.847656 A 10.539395 10.548253 0 0 0 267.20117 55.736328 A 10.539395 10.548253 0 0 0 277.70703 45.847656 L 320.51953 45.847656 L 320.51953 19.798828 L 37.105469 19.798828 z "
+       transform="translate(0,2.5390623e-6)"
+       id="rect2985" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3755"
@@ -128,7 +126,7 @@
        xml:space="preserve"
        id="flowRoot3763"
        style="font-style:normal;font-weight:normal;font-size:22px;line-height:125%;font-family:GOTHIC;-inkscape-font-specification:GOTHIC;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       transform="translate(2.1102043,-16.538516)"><flowRegion
+       transform="translate(1.8127166,-22.785758)"><flowRegion
          id="flowRegion3765"><rect
            id="rect3767"
            width="267.18533"
