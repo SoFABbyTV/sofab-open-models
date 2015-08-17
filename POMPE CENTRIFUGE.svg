@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="610mm"
+   height="304mm"
+   viewBox="0 0 2161.4173 1077.1653"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="POMPE CENTRIFUGE.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="338.96541"
+     inkscape:cy="418.12629"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,24.80315)">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.03543307;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4136"
+       width="354.33072"
+       height="708.66144"
+       x="269.46503"
+       y="-881.51379"
+       rx="3.5433071"
+       ry="3.5433071"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.03543307;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path4138"
+       cx="448.01376"
+       cy="-725.59058"
+       r="56.675858"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="314.23782"
+       y="-518.96179"
+       id="text4140"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4142"
+         x="314.23782"
+         y="-518.96179"
+         style="font-size:30px">Pompe centrifuge</tspan><tspan
+         sodipodi:role="line"
+         x="314.23782"
+         y="-481.46179"
+         id="tspan4144"
+         style="font-size:30px" /><tspan
+         sodipodi:role="line"
+         x="314.23782"
+         y="-443.96179"
+         id="tspan4146"
+         style="font-size:20px">Made in SoFAB</tspan></text>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.03543307;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="m 172.63477,712.54688 c 0,0 -2.63477,1.97033 -2.63477,3.76367 l 0,134.29883 c 0,2.04953 1.46275,3.69921 3.2793,3.69921 l 347.73632,0 c 1.81656,0 3.2793,-1.64968 3.2793,-3.69921 0,-41.45714 -0.24804,-40.51758 -0.24804,-40.51758 l -288.48829,-80.17188 -30.4707,93.35352 -13.44922,-4.39063 30.27539,-92.75586 z"
+       transform="translate(0,-24.803211)"
+       id="rect4148"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsssscccccc" />
+  </g>
+</svg>
