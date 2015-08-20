@@ -1,0 +1,1339 @@
+{
+    "connections": [
+        [
+            [
+                3,
+                "scaled"
+            ],
+            [
+                2,
+                "a"
+            ]
+        ],
+        [
+            [
+                1,
+                "shape"
+            ],
+            [
+                2,
+                "b"
+            ]
+        ],
+        [
+            [
+                0,
+                "shape"
+            ],
+            [
+                3,
+                "shape"
+            ]
+        ],
+        [
+            [
+                2,
+                "shape"
+            ],
+            [
+                5,
+                "a"
+            ]
+        ],
+        [
+            [
+                4,
+                "shape"
+            ],
+            [
+                5,
+                "b"
+            ]
+        ],
+        [
+            [
+                6,
+                "shape"
+            ],
+            [
+                7,
+                "a"
+            ]
+        ],
+        [
+            [
+                5,
+                "out"
+            ],
+            [
+                7,
+                "b"
+            ]
+        ],
+        [
+            [
+                7,
+                "shape"
+            ],
+            [
+                8,
+                "a"
+            ]
+        ],
+        [
+            [
+                9,
+                "shape"
+            ],
+            [
+                10,
+                "shape"
+            ]
+        ],
+        [
+            [
+                13,
+                "rotated"
+            ],
+            [
+                11,
+                "shape"
+            ]
+        ],
+        [
+            [
+                8,
+                "out"
+            ],
+            [
+                12,
+                "shape"
+            ]
+        ],
+        [
+            [
+                10,
+                "rotated"
+            ],
+            [
+                13,
+                "shape"
+            ]
+        ],
+        [
+            [
+                11,
+                "array"
+            ],
+            [
+                14,
+                "shape"
+            ]
+        ],
+        [
+            [
+                12,
+                "rotated"
+            ],
+            [
+                16,
+                "a"
+            ]
+        ],
+        [
+            [
+                15,
+                "shape"
+            ],
+            [
+                16,
+                "b"
+            ]
+        ],
+        [
+            [
+                14,
+                "out"
+            ],
+            [
+                17,
+                "shape"
+            ]
+        ]
+    ],
+    "nodes": [
+        {
+            "datums": [
+                {
+                    "expr": "a0",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0",
+                    "name": "_a",
+                    "type": "float"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": "0",
+                    "name": "x0",
+                    "type": "float"
+                },
+                {
+                    "expr": "-0.5",
+                    "name": "y0",
+                    "type": "float"
+                },
+                {
+                    "expr": "",
+                    "name": "r",
+                    "type": "float"
+                },
+                {
+                    "expr": [
+                        "# Neil Gershenfeld 1/24/15",
+                        "# Matt Keeter 6/11/18",
+                        "",
+                        "import fab",
+                        "",
+                        "title('Circle (center)')",
+                        "",
+                        "input('x0',float)",
+                        "input('y0',float)",
+                        "input('r',float)",
+                        "input('_a',float)",
+                        "",
+                        "output('shape', fab.shapes.circle(x0, y0, r))",
+                        "",
+                        "def drag_r(this,x,y,z):",
+                        "    dx = x - this.x0",
+                        "    dy = y - this.y0",
+                        "    this.r = math.sqrt(dx**2 + dy**2)",
+                        "    this._a = math.atan2(dy, dx)",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe([",
+                        "    (math.cos(i/36. * 2*math.pi) * r + x0,",
+                        "     math.sin(i/36. * 2*math.pi) * r + y0, 0)",
+                        "    for i in range(36)], close=True)",
+                        "fab.ui.point(x0,y0)",
+                        "fab.ui.point(x0 + r*math.cos(_a),",
+                        "             y0 + r*math.sin(_a),",
+                        "             drag=drag_r, relative=False)",
+                        "",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                -533.57487459109564,
+                -419.30716103239126
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a1",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0",
+                    "name": "x0",
+                    "type": "float"
+                },
+                {
+                    "expr": [
+                        "",
+                        "-0.4"
+                    ],
+                    "name": "y0",
+                    "type": "float"
+                },
+                {
+                    "expr": "2",
+                    "name": "width",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.5",
+                    "name": "height",
+                    "type": "float"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "# Neil Gershenfeld 1/24/15",
+                        "# Matt Keeter 6/11/15",
+                        "",
+                        "import fab",
+                        "",
+                        "title('Rectangle (center)')",
+                        "",
+                        "input('x0', float)",
+                        "input('y0', float)",
+                        "input('width', float)",
+                        "input('height', float)",
+                        "",
+                        "xmin, xmax = x0 - width/2, x0 + width/2",
+                        "ymin, ymax = y0 - height/2, y0 + height/2",
+                        "",
+                        "output('shape', fab.shapes.rectangle(xmin, xmax, ymin, ymax))",
+                        "",
+                        "def drag_hw(this, x, y, z):",
+                        "   this.width = abs(2 * (x - this.x0))",
+                        "   this.height = abs(2 * (y - this.y0))",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe(",
+                        "        [(xmin, ymin, 0), (xmax, ymin, 0), (xmax, ymax, 0), (xmin, ymax, 0)],",
+                        "        close=True)",
+                        "fab.ui.point(x0, y0)",
+                        "fab.ui.point(xmax, ymax, drag=drag_hw, relative=False)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                -290.68233397667564,
+                -208.25101889584045
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a2",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "None",
+                    "name": "a",
+                    "type": "shape"
+                },
+                {
+                    "expr": "None",
+                    "name": "b",
+                    "type": "shape"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab.types",
+                        "",
+                        "title('Difference')",
+                        "input('a', fab.types.Shape)",
+                        "input('b', fab.types.Shape)",
+                        "",
+                        "output('shape', a & ~b)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                37.070582555675571,
+                -220.79647660223463
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a4",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0",
+                    "name": "x0",
+                    "type": "float"
+                },
+                {
+                    "expr": "0",
+                    "name": "y0",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "_z",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.5",
+                    "name": "sx",
+                    "type": "float"
+                },
+                {
+                    "expr": "1",
+                    "name": "sy",
+                    "type": "float"
+                },
+                {
+                    "expr": "None",
+                    "name": "shape",
+                    "type": "shape"
+                },
+                {
+                    "name": "scaled",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "# Neil Gershenfeld 1/24/15",
+                        "# Matt Keeter 5/31/15",
+                        "",
+                        "import fab",
+                        "",
+                        "title('Scale (2D)')",
+                        "",
+                        "input('x0', float)",
+                        "input('y0', float)",
+                        "input('_z', float)",
+                        "input('sx', float)",
+                        "input('sy', float)",
+                        "",
+                        "input('shape', fab.types.Shape)",
+                        "output('scaled', fab.shapes.scale_xy(shape, x0, y0, sx, sy))",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe([(x0 + sx, y0, _z), (x0, y0, _z), (x0, y0 + sy, _z)],",
+                        "                 color=fab.color.teal)",
+                        "fab.ui.wireframe([(x0 + sx, y0 + sx/10, _z), (x0 + sx, y0 - sx/10, _z)],",
+                        "                 color=fab.color.teal)",
+                        "fab.ui.wireframe([(x0 + sy/10, y0 + sy, _z), (x0 - sy/10, y0 + sy, _z)],",
+                        "                 color=fab.color.teal)",
+                        "fab.ui.point(x0, y0, _z, color=fab.color.teal)",
+                        "fab.ui.point(x0 + sx, y0, _z, color=fab.color.teal, drag=(sx, None, None))",
+                        "fab.ui.point(x0, y0 + sy, _z, color=fab.color.teal, drag=(None, sy, None))",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                -249.35446019636078,
+                -435.65376953846936
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a3",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0",
+                    "name": "x0",
+                    "type": "float"
+                },
+                {
+                    "expr": "0",
+                    "name": "y0",
+                    "type": "float"
+                },
+                {
+                    "expr": [
+                        "",
+                        "3"
+                    ],
+                    "name": "width",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.3",
+                    "name": "height",
+                    "type": "float"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "# Neil Gershenfeld 1/24/15",
+                        "# Matt Keeter 6/11/15",
+                        "",
+                        "import fab",
+                        "",
+                        "title('Rectangle (center)')",
+                        "",
+                        "input('x0', float)",
+                        "input('y0', float)",
+                        "input('width', float)",
+                        "input('height', float)",
+                        "",
+                        "xmin, xmax = x0 - width/2, x0 + width/2",
+                        "ymin, ymax = y0 - height/2, y0 + height/2",
+                        "",
+                        "output('shape', fab.shapes.rectangle(xmin, xmax, ymin, ymax))",
+                        "",
+                        "def drag_hw(this, x, y, z):",
+                        "   this.width = abs(2 * (x - this.x0))",
+                        "   this.height = abs(2 * (y - this.y0))",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe(",
+                        "        [(xmin, ymin, 0), (xmax, ymin, 0), (xmax, ymax, 0), (xmin, ymax, 0)],",
+                        "        close=True)",
+                        "fab.ui.point(x0, y0)",
+                        "fab.ui.point(xmax, ymax, drag=drag_hw, relative=False)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                -1.2070926356783502,
+                -90.78200970517716
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a5",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "None",
+                    "name": "a",
+                    "type": "shape"
+                },
+                {
+                    "expr": "None",
+                    "name": "b",
+                    "type": "shape"
+                },
+                {
+                    "expr": "0.5",
+                    "name": "weight",
+                    "type": "float"
+                },
+                {
+                    "name": "out",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "# Neil Gershenfeld 2/1/15",
+                        "# Matt Keeter 6/13/15",
+                        "",
+                        "import fab",
+                        "",
+                        "title('Morph')",
+                        "",
+                        "input('a', fab.types.Shape)",
+                        "input('b', fab.types.Shape)",
+                        "input('weight', float)",
+                        "",
+                        "output('out', fab.shapes.morph(a, b, weight))",
+                        "",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                366.76091476650424,
+                -124.40788738775696
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a6",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0",
+                    "name": "x0",
+                    "type": "float"
+                },
+                {
+                    "expr": "-0.08",
+                    "name": "y0",
+                    "type": "float"
+                },
+                {
+                    "expr": "5",
+                    "name": "width",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.14",
+                    "name": "height",
+                    "type": "float"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "# Neil Gershenfeld 1/24/15",
+                        "# Matt Keeter 6/11/15",
+                        "",
+                        "import fab",
+                        "",
+                        "title('Rectangle (center)')",
+                        "",
+                        "input('x0', float)",
+                        "input('y0', float)",
+                        "input('width', float)",
+                        "input('height', float)",
+                        "",
+                        "xmin, xmax = x0 - width/2, x0 + width/2",
+                        "ymin, ymax = y0 - height/2, y0 + height/2",
+                        "",
+                        "output('shape', fab.shapes.rectangle(xmin, xmax, ymin, ymax))",
+                        "",
+                        "def drag_hw(this, x, y, z):",
+                        "   this.width = abs(2 * (x - this.x0))",
+                        "   this.height = abs(2 * (y - this.y0))",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe(",
+                        "        [(xmin, ymin, 0), (xmax, ymin, 0), (xmax, ymax, 0), (xmin, ymax, 0)],",
+                        "        close=True)",
+                        "fab.ui.point(x0, y0)",
+                        "fab.ui.point(xmax, ymax, drag=drag_hw, relative=False)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                -304.20262600007402,
+                131.15322797607982
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a8",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "None",
+                    "name": "a",
+                    "type": "shape"
+                },
+                {
+                    "expr": "None",
+                    "name": "b",
+                    "type": "shape"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab.types",
+                        "",
+                        "title('Union')",
+                        "input('a', fab.types.Shape)",
+                        "input('b', fab.types.Shape)",
+                        "",
+                        "output('shape', a | b)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                121.76235887699787,
+                169.11438732916369
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a7",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "None",
+                    "name": "a",
+                    "type": "shape"
+                },
+                {
+                    "expr": "0",
+                    "name": "x",
+                    "type": "float"
+                },
+                {
+                    "name": "out",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "# Neil Gershenfeld 2/1/15",
+                        "# Matt Keeter 6/13/15",
+                        "",
+                        "import fab",
+                        "",
+                        "title('Revolve (Y)')",
+                        "",
+                        "input('a', fab.types.Shape)",
+                        "input('x', float)",
+                        "",
+                        "output('out', fab.shapes.revolve_xy_y(a, x))",
+                        "",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                400.67066923263064,
+                170.67510246496806
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a9",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0",
+                    "name": "x",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.2",
+                    "name": "y",
+                    "type": "float"
+                },
+                {
+                    "expr": "0",
+                    "name": "z",
+                    "type": "float"
+                },
+                {
+                    "expr": "1",
+                    "name": "width",
+                    "type": "float"
+                },
+                {
+                    "expr": "1",
+                    "name": "height",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.05",
+                    "name": "depth",
+                    "type": "float"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "# Neil Gershenfeld 1/24/15",
+                        "# Matt Keeter 5/22/15",
+                        "",
+                        "import fab",
+                        "",
+                        "title('Cube (center)')",
+                        "",
+                        "input('x', float)",
+                        "input('y', float)",
+                        "input('z', float)",
+                        "input('width', float)",
+                        "input('height', float)",
+                        "input('depth', float)",
+                        "",
+                        "xmin, xmax = x - width/2, x + width/2",
+                        "ymin, ymax = y - height/2, y + height/2",
+                        "zmin, zmax = z - depth/2, z + depth/2",
+                        "",
+                        "output('shape', fab.shapes.cube(xmin, xmax, ymin, ymax, zmin, zmax))",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe([(xmin, ymin, zmin), (xmax, ymin, zmin),",
+                        "                  (xmax, ymax, zmin), (xmin, ymax, zmin)], close=True)",
+                        "fab.ui.wireframe([(xmin, ymin, zmax), (xmax, ymin, zmax),",
+                        "                  (xmax, ymax, zmax), (xmin, ymax, zmax)], close=True)",
+                        "fab.ui.wireframe([(xmin, ymin, zmin), (xmin, ymax, zmin),",
+                        "                  (xmin, ymax, zmax), (xmin, ymin, zmax)], close=True)",
+                        "fab.ui.wireframe([(xmax, ymin, zmin), (xmax, ymax, zmin),",
+                        "                  (xmax, ymax, zmax), (xmax, ymin, zmax)], close=True)",
+                        "",
+                        "def drag_hwd(this, dx,dy,dz):",
+                        "   this.width += 2*dx",
+                        "   this.height += 2*dy",
+                        "   this.depth += 2*dz",
+                        "",
+                        "fab.ui.point(x, y, z)",
+                        "fab.ui.point(x + width/2.0, y + height/2.0, z + depth/2.0,",
+                        "             drag=drag_hwd)",
+                        "",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                -281.83160843974747,
+                348.65381595022814
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a10",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "x",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "_y",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "z",
+                    "type": "float"
+                },
+                {
+                    "expr": "90",
+                    "name": "a",
+                    "type": "float"
+                },
+                {
+                    "expr": "None",
+                    "name": "shape",
+                    "type": "shape"
+                },
+                {
+                    "name": "rotated",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab",
+                        "",
+                        "title('Rotate (Y)')",
+                        "",
+                        "input('x', float)",
+                        "input('_y', float)",
+                        "input('z', float)",
+                        "input('a', float)",
+                        "",
+                        "input('shape', fab.types.Shape)",
+                        "output('rotated', fab.shapes.rotate_y(shape, a, x, z))",
+                        "",
+                        "# UI",
+                        "rad = math.radians(a)",
+                        "fab.ui.wireframe([(x + math.cos(rad), _y, z + math.sin(rad)),",
+                        "                  (x, _y, z),",
+                        "                  (x + 1, _y, z)], color=fab.color.teal)",
+                        "",
+                        "# Draw a semi-circular arc showing the rotation",
+                        "if int(a) % 360 != 0:",
+                        "    fab.ui.wireframe([",
+                        "        (x + math.cos(math.radians(a_)) * 0.3, _y,",
+                        "         z + math.sin(math.radians(a_)) * 0.3)",
+                        "        for a_ in range(int(a) % 360)], color=fab.color.teal)",
+                        "",
+                        "fab.ui.point(x, _y, z, color=fab.color.teal)",
+                        "",
+                        "def drag_pt(this, x, y, z):",
+                        "    this.a = math.degrees(math.atan2(z - this.z, x - this.x))",
+                        "fab.ui.point(x + math.cos(rad), _y, z + math.sin(rad),",
+                        "             color=fab.color.teal, drag=drag_pt, relative=False)",
+                        "",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                7.982762562787542,
+                377.85076130527642
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a11",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "None",
+                    "name": "shape",
+                    "type": "shape"
+                },
+                {
+                    "expr": "2",
+                    "name": "x",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "y",
+                    "type": "float"
+                },
+                {
+                    "expr": "30",
+                    "name": "n",
+                    "type": "int"
+                },
+                {
+                    "name": "array",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab",
+                        "",
+                        "title('Array (polar)')",
+                        "",
+                        "input('shape', fab.types.Shape)",
+                        "input('x', float)",
+                        "input('y', float)",
+                        "input('n', int)",
+                        "",
+                        "output('array', fab.shapes.iterate_polar(shape, x, y, n))",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe([",
+                        "    (math.cos(i/36. * 2*math.pi) * 0.3 + x,",
+                        "     math.sin(i/36. * 2*math.pi) * 0.3 + y, 0)",
+                        "    for i in range(36)], close=True, color=fab.color.teal)",
+                        "",
+                        "fab.ui.point(x, y, 0, color=fab.color.teal)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                -31.944990068643563,
+                641.29238074038494
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a12",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "_x",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "y",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "z",
+                    "type": "float"
+                },
+                {
+                    "expr": "-90",
+                    "name": "a",
+                    "type": "float"
+                },
+                {
+                    "expr": "None",
+                    "name": "shape",
+                    "type": "shape"
+                },
+                {
+                    "name": "rotated",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab",
+                        "",
+                        "title('Rotate (X)')",
+                        "",
+                        "input('_x', float)",
+                        "input('y', float)",
+                        "input('z', float)",
+                        "input('a', float)",
+                        "",
+                        "input('shape', fab.types.Shape)",
+                        "output('rotated', fab.shapes.rotate_x(shape, a, y, z))",
+                        "",
+                        "# UI",
+                        "rad = math.radians(a)",
+                        "fab.ui.wireframe([(_x, y + math.cos(rad), z + math.sin(rad)),",
+                        "                  (_x, y, z),",
+                        "                  (_x, y + 1, z)], color=fab.color.teal)",
+                        "",
+                        "# Draw a semi-circular arc showing the rotation",
+                        "if int(a) % 360 != 0:",
+                        "    fab.ui.wireframe([",
+                        "        (_x, y + math.cos(math.radians(a_)) * 0.3,",
+                        "             z + math.sin(math.radians(a_)) * 0.3)",
+                        "        for a_ in range(int(a) % 360)], color=fab.color.teal)",
+                        "",
+                        "fab.ui.point(_x, y, z, color=fab.color.teal)",
+                        "",
+                        "def drag_pt(this, x, y, z):",
+                        "    this.a = math.degrees(math.atan2(z - this.z, y - this.y))",
+                        "fab.ui.point(_x, y + math.cos(rad), z + math.sin(rad),",
+                        "             color=fab.color.teal, drag=drag_pt, relative=False)",
+                        "",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                752.3094882516798,
+                189.44355152100408
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a13",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "x",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "y",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "_z",
+                    "type": "float"
+                },
+                {
+                    "expr": "45",
+                    "name": "a",
+                    "type": "float"
+                },
+                {
+                    "expr": "None",
+                    "name": "shape",
+                    "type": "shape"
+                },
+                {
+                    "name": "rotated",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab",
+                        "",
+                        "title('Rotate (Z)')",
+                        "",
+                        "input('x', float)",
+                        "input('y', float)",
+                        "input('_z', float)",
+                        "input('a', float)",
+                        "",
+                        "input('shape', fab.types.Shape)",
+                        "output('rotated', fab.shapes.rotate_z(shape, a, x, y))",
+                        "",
+                        "# UI",
+                        "rad = math.radians(a)",
+                        "fab.ui.wireframe([(x + math.cos(rad), y + math.sin(rad), _z),",
+                        "                  (x, y, _z),",
+                        "                  (x + 1, y, _z)], color=fab.color.teal)",
+                        "",
+                        "# Draw a semi-circular arc showing the rotation",
+                        "if int(a) % 360 != 0:",
+                        "    fab.ui.wireframe([",
+                        "        (x + math.cos(math.radians(a_)) * 0.3,",
+                        "         y + math.sin(math.radians(a_)) * 0.3, _z)",
+                        "        for a_ in range(int(a) % 360)], color=fab.color.teal)",
+                        "",
+                        "fab.ui.point(x, y, _z, color=fab.color.teal)",
+                        "",
+                        "def drag_pt(this, x, y, z):",
+                        "    this.a = math.degrees(math.atan2(y - this.y, x - this.x))",
+                        "fab.ui.point(x + math.cos(rad), y + math.sin(rad), _z,",
+                        "             color=fab.color.teal, drag=drag_pt, relative=False)",
+                        "",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                309.54346782996572,
+                348.23640130871144
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a14",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "x",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "y",
+                    "type": "float"
+                },
+                {
+                    "expr": "-0.5",
+                    "name": "z",
+                    "type": "float"
+                },
+                {
+                    "expr": "None",
+                    "name": "shape",
+                    "type": "shape"
+                },
+                {
+                    "name": "out",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab",
+                        "",
+                        "title('Recenter')",
+                        "",
+                        "input('x', float)",
+                        "input('y', float)",
+                        "input('z', float)",
+                        "",
+                        "input('shape', fab.types.Shape)",
+                        "output('out', fab.shapes.recenter(shape, x, y, z))",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe([(x, y - 0.3, z),",
+                        "                  (x, y + 0.3, z)], color=fab.color.teal)",
+                        "fab.ui.wireframe([(x - 0.3, y, z),",
+                        "                  (x + 0.3, y, z)], color=fab.color.teal)",
+                        "fab.ui.wireframe([(x, y, z - 0.3),",
+                        "                  (x, y, z + 0.3)], color=fab.color.teal)",
+                        "",
+                        "fab.ui.point(x, y, z, color=fab.color.teal)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                341.07104325709184,
+                650.61451108705762
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a15",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "x",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.0",
+                    "name": "y",
+                    "type": "float"
+                },
+                {
+                    "expr": "-0.5",
+                    "name": "zmin",
+                    "type": "float"
+                },
+                {
+                    "expr": "1",
+                    "name": "zmax",
+                    "type": "float"
+                },
+                {
+                    "expr": "0.1",
+                    "name": "r",
+                    "type": "float"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab",
+                        "",
+                        "title('Cylinder (Z)')",
+                        "",
+                        "input('x', float)",
+                        "input('y', float)",
+                        "input('zmin', float)",
+                        "input('zmax', float)",
+                        "input('r', float)",
+                        "",
+                        "output('shape', fab.shapes.cylinder(x, y, zmin, zmax, r))",
+                        "",
+                        "# UI",
+                        "fab.ui.wireframe([(x, y, zmin), (x, y, zmax)])",
+                        "fab.ui.wireframe([(x, y, zmin), (x+r, y, zmin)])",
+                        "",
+                        "fab.ui.wireframe([",
+                        "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                        "     math.sin(i/36. * 2*math.pi) * r + y, zmin)",
+                        "    for i in range(36)], close=True)",
+                        "",
+                        "fab.ui.wireframe([",
+                        "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                        "     math.sin(i/36. * 2*math.pi) * r + y, zmax)",
+                        "    for i in range(36)], close=True)",
+                        "",
+                        "fab.ui.point(x, y, zmin)",
+                        "fab.ui.point(x, y, zmax)",
+                        "fab.ui.point(x + r, y, zmin, drag=(r, None, None))",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                1099.8575429203834,
+                56.886344651171783
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a16",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "None",
+                    "name": "a",
+                    "type": "shape"
+                },
+                {
+                    "expr": "None",
+                    "name": "b",
+                    "type": "shape"
+                },
+                {
+                    "name": "shape",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab.types",
+                        "",
+                        "title('Difference')",
+                        "input('a', fab.types.Shape)",
+                        "input('b', fab.types.Shape)",
+                        "",
+                        "output('shape', a & ~b)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                1075.0859566924532,
+                344.54628619084042
+            ]
+        },
+        {
+            "datums": [
+                {
+                    "expr": "a17",
+                    "name": "__name",
+                    "type": "name"
+                },
+                {
+                    "expr": "None",
+                    "name": "shape",
+                    "type": "shape"
+                },
+                {
+                    "name": "out",
+                    "type": "shape output"
+                },
+                {
+                    "expr": [
+                        "import fab",
+                        "",
+                        "title('Mesh (.stl)')",
+                        "",
+                        "input('shape', fab.types.Shape)",
+                        "output('out', shape)",
+                        "",
+                        "meta.export_stl(shape)",
+                        ""
+                    ],
+                    "name": "__script",
+                    "type": "script"
+                }
+            ],
+            "inspector": [
+                739.98457692977411,
+                769.06694021522378
+            ]
+        }
+    ],
+    "protocol": 5,
+    "type": "sb"
+}
