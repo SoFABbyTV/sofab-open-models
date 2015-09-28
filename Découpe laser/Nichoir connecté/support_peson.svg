@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="95.345939"
-     inkscape:cy="-21.749882"
+     inkscape:cx="73.349257"
+     inkscape:cy="2.4243953"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,7 +59,7 @@
      transform="translate(-127.82285,-187.0748)">
     <g
        id="g4418"
-       transform="translate(20,128)">
+       transform="translate(20.00114,122.57321)">
       <path
          sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -88,7 +88,7 @@
          style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.35433075;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
-       transform="matrix(-1,0,0,1,622.39311,128)"
+       transform="matrix(-1,0,0,1,622.39311,122.57321)"
        id="g4418-5">
       <path
          sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc"
@@ -151,22 +151,22 @@
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4473"
        width="389.76379"
-       height="283.46457"
+       height="141.7323"
        x="127.82285"
-       y="187.0748"
-       rx="15.552364"
-       ry="14.18644" />
+       y="328.80713"
+       rx="17.716536"
+       ry="17.716536" />
     <circle
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4483"
        cx="145.53938"
-       cy="204.79132"
+       cy="346.52362"
        r="7.0866141" />
     <circle
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4483-8"
        cx="499.87012"
-       cy="204.79132"
+       cy="346.52362"
        r="7.0866141" />
     <circle
        style="opacity:1;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
