@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 708.66142 708.66141"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -25,10 +25,10 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-60.714286"
-     inkscape:cy="517.14286"
-     inkscape:document-units="px"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="11.086969"
+     inkscape:cy="460.18636"
+     inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
@@ -51,13 +51,24 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4136"
-       width="525.71429"
-       height="534.28571"
-       x="117.14286"
-       y="155.21935" />
+     id="layer1"
+     transform="translate(0,-343.70076)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:121.15596008px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="352.22083"
+       y="491.22632"
+       id="text4138"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="352.22083"
+         y="491.22632"
+         id="tspan4150"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Stencil;-inkscape-font-specification:Stencil">NICHOIR</tspan><tspan
+         sodipodi:role="line"
+         x="352.22083"
+         y="642.67126"
+         id="tspan4152"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Stencil;-inkscape-font-specification:Stencil">CONNECTÉ</tspan></text>
   </g>
 </svg>
