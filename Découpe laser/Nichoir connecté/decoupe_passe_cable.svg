@@ -53,22 +53,22 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:none;stroke:#ff0000;stroke-width:0.00171164;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="rect4136"
-       width="265.71613"
-       height="30.001829"
-       x="179.99908"
-       y="106.647" />
+       width="106.29803"
+       height="35.431896"
+       x="186.47739"
+       y="101.2172" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="145.71428"
-       y="203.79077"
+       style="font-style:normal;font-weight:normal;font-size:26.06138992px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="119.83053"
+       y="180.9554"
        id="text4138"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4140"
-         x="145.71428"
-         y="203.79077">passage de câbles</tspan></text>
+         x="119.83053"
+         y="180.9554">passage de câbles</tspan></text>
   </g>
 </svg>
