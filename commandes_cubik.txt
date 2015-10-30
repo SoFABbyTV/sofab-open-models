@@ -1,0 +1,28 @@
+?v
+lp 1
+li 97
+so 0
+lp 1
+lo
+lp 0
+lo 
+lp 1
+lp 1
+lo
+lp 0
+lo
+lp 1
+lp 1
+ls 31
+ls 32
+lp 1
+lp 1
+lo
+lp 0
+lo
+lp 1
+lp 1
+ls 31
+ls 32
+lp 1
+lp 1
