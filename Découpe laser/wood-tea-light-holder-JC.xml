@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Trotec Laser GmbH.-->
+<MaterialDatabase Version="12" GUID="{2f574bf6-9310-419a-ba1f-0cbe6c540a68}">
+  <DatabaseProperties>
+    <ContentVersion>1</ContentVersion>
+    <LaserSystem>Unkown</LaserSystem>
+    <Description>Trotec Material Database.</Description>
+  </DatabaseProperties>
+  <Machine>
+    <MachineTypeID>0</MachineTypeID>
+    <Name>TR_CO2_Material.S-300_85W</Name>
+    <FileName>TR_CO2_Material.S-300_85W</FileName>
+    <Description></Description>
+    <LaserType>0</LaserType>
+    <FileType>0</FileType>
+    <MachineLaserSources>
+      <MachineLaserSource SourceID="0">
+        <Name>CO2</Name>
+        <Description></Description>
+        <Power>85</Power>
+        <LaserSourceType>1</LaserSourceType>
+      </MachineLaserSource>
+    </MachineLaserSources>
+  </Machine>
+  <Materials>
+    <Material Name="Wood-tea-light-holder" SystemValue="false" GUID="{a69a33b6-1473-4859-811b-5d8f23dc539f}" Thickness="3.00000" Description="Speedy 300, 60 watts, 1.5 inch lens">
+      <MaterialParameter Index="0" Name="0" Color="0" Enabled="false">
+        <Info>Param1</Info>
+        <ProcessKind Description="Gravieren CO2">1</ProcessKind>
+        <Power>30.00000</Power>
+        <Frequency Unit="PPI">500.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>20.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="aktivieren">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="1" Name="1" Color="255" Enabled="false">
+        <Info>Param2</Info>
+        <ProcessKind Description="Schneiden CO2">2</ProcessKind>
+        <Power>60.00000</Power>
+        <Frequency Unit="Hz">1000.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="aktivieren">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="2" Name="2" Color="16711680" Enabled="false">
+        <Info>Param3</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="3" Name="3" Color="10053171" Enabled="false">
+        <Info>Param4</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="4" Name="4" Color="16776960" Enabled="false">
+        <Info>Param5</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="5" Name="5" Color="65280" Enabled="false">
+        <Info>Param6</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="6" Name="6" Color="3381504" Enabled="false">
+        <Info>Param7</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="7" Name="7" Color="3368448" Enabled="false">
+        <Info>Param8</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="8" Name="8" Color="3381657" Enabled="false">
+        <Info>Param9</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="9" Name="9" Color="3368601" Enabled="false">
+        <Info>Param10</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="10" Name="10" Color="13158" Enabled="false">
+        <Info>Param11</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="11" Name="11" Color="6684774" Enabled="false">
+        <Info>Param12</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="12" Name="12" Color="13369497" Enabled="false">
+        <Info>Param13</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="13" Name="13" Color="16711935" Enabled="false">
+        <Info>Param14</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="14" Name="14" Color="26367" Enabled="false">
+        <Info>Param15</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+      <MaterialParameter Index="15" Name="15" Color="65535" Enabled="false">
+        <Info>Param16</Info>
+        <ProcessKind Description="Überspr.">3</ProcessKind>
+        <Power>20.00000</Power>
+        <Frequency Unit="---">0.00000</Frequency>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>0</Passes>
+        <AirAssist Description="Aus">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Aus">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+      </MaterialParameter>
+    </Material>
+  </Materials>
+</MaterialDatabase>
