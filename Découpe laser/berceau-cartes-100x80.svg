@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2161.4172"
+   height="1077.1653"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="berceau-cartes-100x80.svg"
+   viewBox="0 0 609.99998 303.99998">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.48770272"
+     inkscape:cx="598.89418"
+     inkscape:cy="755.34073"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="mm"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-3132.2835)">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 772.98828 521.5957 C 761.21466 521.5957 751.73633 531.07403 751.73633 542.84766 L 751.73633 603.77734 L 426.39258 603.77734 L 426.39258 543.33203 C 426.39258 531.55841 416.91425 522.08008 405.14062 522.08008 C 393.367 522.08008 383.88867 531.55841 383.88867 543.33203 L 383.88867 624.82812 C 383.88867 634.92171 390.85705 643.32197 400.26367 645.51562 C 402.07932 646.00322 403.99036 646.26758 405.9668 646.26758 L 772.24805 646.26758 C 779.22598 646.26758 785.39072 643.01043 789.32031 637.96289 C 792.39178 634.27932 794.24023 629.53667 794.24023 624.34375 L 794.24023 542.84766 C 794.24023 531.07403 784.7619 521.5957 772.98828 521.5957 z "
+       transform="matrix(0.28222224,0,0,0.2822222,0,3132.2835)"
+       id="rect3371" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.01;stroke-miterlimit:4.1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3402"
+       width="99.991623"
+       height="1.4416181"
+       x="116.23444"
+       y="3285.2649"
+       ry="0" />
+  </g>
+</svg>
