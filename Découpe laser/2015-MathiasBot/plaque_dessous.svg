@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="79.499992mm"
-   height="123.19999mm"
-   viewBox="0 0 281.69289 436.5354"
+   width="59.499836mm"
+   height="93.200035mm"
+   viewBox="0 0 210.82619 330.23632"
    id="svg4453"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -46,8 +46,8 @@
   <path
      inkscape:connector-curvature="0"
      id="path3065"
-     clip-rule="evenodd"
-     d="m 92.16,363.74 -5.04,0 0,-16.14 5.04,0 0,16.14 z m -5.04,0 z m 70.8,0 -5.04,0 0,-16.14 5.04,0 0,16.14 z" />
+     d="m 92.16,363.74 -5.04,0 0,-16.14 5.04,0 0,16.14 z m -5.04,0 z m 70.8,0 -5.04,0 0,-16.14 5.04,0 0,16.14 z"
+     style="clip-rule:evenodd" />
 </clipPath>
 <clipPath
    id="clipPath3069"
@@ -55,7 +55,7 @@
   <path
      inkscape:connector-curvature="0"
      id="path3071"
-     d="m 0,841.98 595.2,0 L 595.2,0 0,0 0,841.98 z" />
+     d="m 0,841.98 595.2,0 L 595.2,0 0,0 0,841.98 Z" />
 </clipPath>
 <clipPath
    id="clipPath3085"
@@ -63,8 +63,8 @@
   <path
      inkscape:connector-curvature="0"
      id="path3087"
-     clip-rule="evenodd"
-     d="m 163.38,363.74 -5.04,0 0,-16.14 5.04,0 0,16.14 z m -5.04,0 z m 73.98,0 -5.04,0 0,-16.14 5.04,0 0,16.14 z" />
+     d="m 163.38,363.74 -5.04,0 0,-16.14 5.04,0 0,16.14 z m -5.04,0 z m 73.98,0 -5.04,0 0,-16.14 5.04,0 0,16.14 z"
+     style="clip-rule:evenodd" />
 </clipPath>
 <clipPath
    id="clipPath3091"
@@ -72,7 +72,7 @@
   <path
      inkscape:connector-curvature="0"
      id="path3093"
-     d="m 0,841.98 595.2,0 L 595.2,0 0,0 0,841.98 z" />
+     d="m 0,841.98 595.2,0 L 595.2,0 0,0 0,841.98 Z" />
 </clipPath>
 <clipPath
    id="clipPath3107"
@@ -80,8 +80,8 @@
   <path
      inkscape:connector-curvature="0"
      id="path3109"
-     clip-rule="evenodd"
-     d="m 237.78,363.74 -5.04,0 0,-16.14 5.04,0 0,16.14 z m -5.04,0 z m 62.7,0 -5.04,0 0,-16.14 5.04,0 0,16.14 z" />
+     d="m 237.78,363.74 -5.04,0 0,-16.14 5.04,0 0,16.14 z m -5.04,0 z m 62.7,0 -5.04,0 0,-16.14 5.04,0 0,16.14 z"
+     style="clip-rule:evenodd" />
 </clipPath>
 <clipPath
    id="clipPath3113"
@@ -89,7 +89,7 @@
   <path
      inkscape:connector-curvature="0"
      id="path3115"
-     d="m 0,841.98 595.2,0 L 595.2,0 0,0 0,841.98 z" />
+     d="m 0,841.98 595.2,0 L 595.2,0 0,0 0,841.98 Z" />
 </clipPath>
 <clipPath
    id="clipPath3129"
@@ -97,8 +97,8 @@
   <path
      inkscape:connector-curvature="0"
      id="path3131"
-     clip-rule="evenodd"
-     d="m 300.9,363.74 -4.92,0 0,-16.14 4.92,0 0,16.14 z m -4.92,0 z m 212.04,0 -5.04,0 0,-16.14 5.04,0 0,16.14 z" />
+     d="m 300.9,363.74 -4.92,0 0,-16.14 4.92,0 0,16.14 z m -4.92,0 z m 212.04,0 -5.04,0 0,-16.14 5.04,0 0,16.14 z"
+     style="clip-rule:evenodd" />
 </clipPath>
 <clipPath
    id="clipPath3135"
@@ -106,7 +106,7 @@
   <path
      inkscape:connector-curvature="0"
      id="path3137"
-     d="m 0,841.98 595.2,0 L 595.2,0 0,0 0,841.98 z" />
+     d="m 0,841.98 595.2,0 L 595.2,0 0,0 0,841.98 Z" />
 </clipPath>
 
 </defs>
@@ -117,16 +117,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.14"
-     inkscape:cx="102.70097"
-     inkscape:cy="251.81402"
+     inkscape:zoom="1"
+     inkscape:cx="192.36235"
+     inkscape:cy="126.03066"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     fit-margin-top="20"
-     fit-margin-left="10"
-     fit-margin-right="10"
-     fit-margin-bottom="10"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
      inkscape:window-width="1280"
      inkscape:window-height="738"
      inkscape:window-x="-8"
@@ -148,12 +148,13 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-141.69205,-219.84904)">
+     transform="translate(-177.12563,-290.71428)">
     <path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.02345771;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 35.445312 70.876953 L 35.445312 401.08984 L 246.24805 401.08984 L 246.24805 70.876953 L 142.73242 70.876953 A 19.478897 19.478897 0 0 1 145.26562 80.433594 A 19.478897 19.478897 0 0 1 125.78711 99.912109 A 19.478897 19.478897 0 0 1 106.30859 80.433594 A 19.478897 19.478897 0 0 1 108.82617 70.876953 L 35.445312 70.876953 z "
+       d="m 35.445312,70.876953 0,330.212887 210.802738,0 0,-330.212887 -103.51563,0 a 19.478897,19.478897 0 0 1 2.5332,9.556641 19.478897,19.478897 0 0 1 -19.47851,19.478515 19.478897,19.478897 0 0 1 -19.47852,-19.478515 19.478897,19.478897 0 0 1 2.51758,-9.556641 l -73.380858,0 z"
        id="rect5001"
-       transform="translate(141.69205,219.84904)" />
+       transform="translate(141.69205,219.84904)"
+       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:30.79718018px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
