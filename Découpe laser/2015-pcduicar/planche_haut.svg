@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="440.01001mm"
+   height="200.00999mm"
+   viewBox="0 0 1559.0906 708.69682"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -25,10 +25,10 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="542.59372"
-     inkscape:cy="798.51315"
-     inkscape:document-units="px"
+     inkscape:zoom="0.25"
+     inkscape:cx="1029.8946"
+     inkscape:cy="602.68161"
+     inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
@@ -36,10 +36,16 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     showguides="false">
+     showguides="false"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20">
     <inkscape:grid
        type="xygrid"
-       id="grid4287" />
+       id="grid4287"
+       originx="314.88386"
+       originy="-46.186947" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -56,5 +62,25 @@
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1"
+     transform="translate(314.88386,-297.47835)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.01989698;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4390"
+       width="1045.2556"
+       height="255.09822"
+       x="-57.96637"
+       y="524.27765"
+       rx="2.7625384"
+       ry="1.4330677" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.03543307;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4392"
+       width="1417.3229"
+       height="566.92914"
+       x="-244"
+       y="368.36221"
+       rx="2.7625401"
+       ry="1.4330699" />
+  </g>
 </svg>
