@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="527.59395"
-     inkscape:cy="549.2598"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="655.40074"
+     inkscape:cy="361.43878"
      inkscape:document-units="mm"
      inkscape:current-layer="g4434"
      showgrid="false"
@@ -104,6 +104,13 @@
          cx="987.30603"
          id="path4394-6"
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.00831963;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0274419;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4451"
+         width="141.70483"
+         height="212.57097"
+         x="158.78159"
+         y="557.07281" />
     </g>
   </g>
 </svg>
