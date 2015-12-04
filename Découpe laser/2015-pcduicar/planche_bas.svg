@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="643.63464"
-     inkscape:cy="462.09655"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="480.07066"
+     inkscape:cy="713.85861"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,7 +36,11 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     showguides="false" />
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4287" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -55,10 +59,10 @@
      id="layer1">
     <path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.02432555;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 224.2793,500.93945 347.24023,0 0,35.41407 35.41797,0 0,-35.41602 -0.004,0 0,-292.2207 0.002,0 0,-44.41407 -35.41407,0 0,35.48047 -347.24218,0 m -0.002,-0.004 -77.93945,35.44336 0,230.26367 77.93945,35.44531"
+       d="m 224.27725,199.7792 -76.74641,34.90082 c -0.99527,0.47538 -1.19304,0.50155 -1.19304,1.61969 l 0,229.01953 c 0.0118,0.16439 0.0109,0.16212 0.15803,0.23886 25.89206,11.75631 51.77624,23.58557 77.66117,35.32588 0.11322,0.0511 0.13597,0.0555 0.24144,0.0555 l 341.99409,0 c 3.77839,0.0292 5.09575,1.29382 5.127,4.65241 l 0,29.78594 c 0.0234,0.73437 0.0736,0.86634 0.98047,0.97572 l 33.44632,0 c 0.79977,0.009 0.99899,-0.19222 0.99118,-0.98584 l 0,-34.43018 -0.004,0 0,-292.2207 0.002,0 0,-43.42103 c -0.002,-0.70959 -0.23574,-0.98913 -1.01362,-0.99304 l -33.35938,0 c -0.5625,0.0594 -0.99688,0.37985 -1.04107,0.98913 l 0,32.10157 C 571.48974,199.3622 571,199.78323 569,199.78323 l -344.72075,0"
        id="rect4136"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccc" />
+       sodipodi:nodetypes="cccccccccccccccccccccccc" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00896411;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4159"
@@ -85,7 +89,7 @@
        r="10.62544" />
     <g
        id="g4937"
-       transform="matrix(-1,0,0,-1,753.14286,569.41718)">
+       transform="matrix(-1,0,0,-1,761.14286,567.41718)">
       <circle
          r="5.3968129"
          cy="299.29156"
