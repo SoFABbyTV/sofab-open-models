@@ -58,9 +58,20 @@
      id="layer1"
      transform="translate(-141.69205,-219.84904)">
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.02345771;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.02345771;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 35.445312 70.876953 L 35.445312 401.08984 L 246.24805 401.08984 L 246.24805 70.876953 L 142.73242 70.876953 A 19.478897 19.478897 0 0 1 145.26562 80.433594 A 19.478897 19.478897 0 0 1 125.78711 99.912109 A 19.478897 19.478897 0 0 1 106.30859 80.433594 A 19.478897 19.478897 0 0 1 108.82617 70.876953 L 35.445312 70.876953 z "
        transform="translate(141.69205,219.84904)"
        id="rect5001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="204.3215"
+       y="593.75494"
+       id="text5007"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5009"
+         x="204.3215"
+         y="593.75494">Mathias</tspan></text>
   </g>
 </svg>
