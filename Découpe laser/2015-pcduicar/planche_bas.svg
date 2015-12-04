@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="605.14531"
-     inkscape:cy="843.83858"
+     inkscape:zoom="1"
+     inkscape:cx="450.09251"
+     inkscape:cy="702.38332"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -120,5 +120,40 @@
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.77165353;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:connector-curvature="0" />
     </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.03543307;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4289"
+       width="35.433071"
+       height="372.04724"
+       x="631.55304"
+       y="164.32188"
+       rx="3.5433071"
+       ry="3.5433071" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00896411;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4159-4-9"
+       cx="649.22864"
+       cy="518.64514"
+       r="10.62544" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00896411;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4159-4-76"
+       cx="649.22864"
+       cy="182.00922"
+       r="10.62544" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00597607;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4159-4-76-1"
+       cx="649.22864"
+       cy="182.00922"
+       rx="7.0836258"
+       ry="7.0836263" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00597607;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4159-4-76-1-2"
+       cx="649.22864"
+       cy="518.64514"
+       rx="7.0836258"
+       ry="7.0836263" />
   </g>
 </svg>
