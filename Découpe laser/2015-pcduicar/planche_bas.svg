@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-67.857143"
-     inkscape:cy="517.14286"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="296.81324"
+     inkscape:cy="742.82591"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +35,8 @@
      inkscape:window-height="738"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -51,5 +52,46 @@
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.02432555;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4136"
+       width="382.65286"
+       height="301.15677"
+       x="224.28017"
+       y="199.78239" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.01639735;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4142"
+       width="35.416676"
+       height="35.416672"
+       x="571.52032"
+       y="164.30087" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.01639735;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4142-4"
+       width="35.416676"
+       height="35.416672"
+       x="571.52032"
+       y="500.93683" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.00896411;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4159"
+       cx="589.22864"
+       cy="518.64514"
+       r="10.62544" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.00896411;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4159-4"
+       cx="589.22864"
+       cy="182.00922"
+       r="10.62544" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.04578348;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4189"
+       width="460.58414"
+       height="230.26918"
+       x="146.33817"
+       y="237.08786" />
+  </g>
 </svg>
