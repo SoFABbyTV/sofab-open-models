@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="211.41717"
-     inkscape:cy="229.99479"
+     inkscape:zoom="1.14"
+     inkscape:cx="190.27644"
+     inkscape:cy="198.93282"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -61,8 +61,8 @@
     <path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.02345771;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 35.445312 70.876953 L 35.445312 401.08984 L 246.24805 401.08984 L 246.24805 70.876953 L 142.73242 70.876953 A 19.478897 19.478897 0 0 1 145.26562 80.433594 A 19.478897 19.478897 0 0 1 125.78711 99.912109 A 19.478897 19.478897 0 0 1 106.30859 80.433594 A 19.478897 19.478897 0 0 1 108.82617 70.876953 L 35.445312 70.876953 z "
-       transform="translate(141.69205,219.84904)"
-       id="rect5001" />
+       id="rect5001"
+       transform="translate(141.69205,219.84904)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:30.79718018px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -287,5 +287,271 @@ A+o1zD6dlmvayRT5h8tv67//2Q==
        preserveAspectRatio="none"
        height="48.237591"
        width="53.360165" />
+    <g
+       id="silkscreen"
+       transform="matrix(0,-0.08986272,0.1134787,0,212.37616,455.38442)">
+      <line
+         style="stroke:#ffffff;stroke-width:10"
+         y1="10"
+         x1="10"
+         y2="1210"
+         x2="10"
+         id="line5027" />
+      <line
+         style="stroke:#ffffff;stroke-width:10"
+         y1="1210"
+         x1="10"
+         y2="1210"
+         x2="810"
+         id="line5029" />
+      <line
+         style="stroke:#ffffff;stroke-width:10"
+         y1="1210"
+         x1="810"
+         y2="10"
+         x2="810"
+         id="line5031" />
+      <line
+         style="stroke:#ffffff;stroke-width:10"
+         y1="10"
+         x1="10"
+         y2="10"
+         x2="360"
+         id="line5033" />
+      <line
+         style="stroke:#ffffff;stroke-width:10"
+         y1="10"
+         x1="460"
+         y2="10"
+         x2="810"
+         id="line5035" />
+    </g>
+    <rect
+       id="rect5038"
+       height="4.9499998"
+       y="215.48103"
+       x="-452.51572"
+       width="4.9499998"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector0pin"
+       r="2.4749999"
+       cy="217.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector23pin"
+       r="2.4749999"
+       cy="217.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector1pin"
+       r="2.4749999"
+       cy="226.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector22pin"
+       r="2.4749999"
+       cy="226.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector2pin"
+       r="2.4749999"
+       cy="235.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector21pin"
+       r="2.4749999"
+       cy="235.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector3pin"
+       r="2.4749999"
+       cy="244.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector20pin"
+       r="2.4749999"
+       cy="244.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector4pin"
+       r="2.4749999"
+       cy="253.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector19pin"
+       r="2.4749999"
+       cy="253.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector5pin"
+       r="2.4749999"
+       cy="262.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector18pin"
+       r="2.4749999"
+       cy="262.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector6pin"
+       r="2.4749999"
+       cy="271.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector17pin"
+       r="2.4749999"
+       cy="271.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector7pin"
+       r="2.4749999"
+       cy="280.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector16pin"
+       r="2.4749999"
+       cy="280.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector8pin"
+       r="2.4749999"
+       cy="289.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector15pin"
+       r="2.4749999"
+       cy="289.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector9pin"
+       r="2.4749999"
+       cy="298.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector14pin"
+       r="2.4749999"
+       cy="298.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector10pin"
+       r="2.4749999"
+       cy="307.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector13pin"
+       r="2.4749999"
+       cy="307.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector11pin"
+       r="2.4749999"
+       cy="316.95602"
+       cx="-450.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector12pin"
+       r="2.4749999"
+       cy="316.95602"
+       cx="-387.04071"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <g
+       id="keepout"
+       transform="matrix(0,-0.09,0.09,0,194.55603,461.44071)" />
+    <g
+       id="soldermask"
+       transform="matrix(0,-0.09,0.09,0,194.55603,461.44071)" />
+    <g
+       id="outline"
+       transform="matrix(0,-0.09,0.09,0,194.55603,461.44071)" />
+    <circle
+       id="connector9pin-5"
+       r="2.4749999"
+       cy="325.95987"
+       cx="-450.03177"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector14pin-2"
+       r="2.4749999"
+       cy="325.95987"
+       cx="-387.03177"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector10pin-2"
+       r="2.4749999"
+       cy="334.95987"
+       cx="-450.03177"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector13pin-5"
+       r="2.4749999"
+       cy="334.95987"
+       cx="-387.03177"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector11pin-2"
+       r="2.4749999"
+       cy="343.95987"
+       cx="-450.03177"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <circle
+       id="connector12pin-3"
+       r="2.4749999"
+       cy="343.95987"
+       cx="-387.03177"
+       style="fill:none;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>
