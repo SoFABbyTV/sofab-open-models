@@ -7,7 +7,7 @@ difference() {
 
     }
 
-translate([0,0,-1]) cylinder(r=1.6,h=12);
+translate([-5,0,-1]) cylinder(r=1.6,h=12);
 translate([12,0,-1]) cylinder(r=3.6,h=4);
     translate([12,0,-1]) cylinder(r=1,h=20);
     translate([6,-6,12]) rotate([0,90,90]) cylinder(r=6.2,h=12);
