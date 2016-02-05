@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.73359088"
-     inkscape:cx="148.37145"
+     inkscape:cx="278.69297"
      inkscape:cy="267.41531"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -76,40 +76,10 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-468.90849,-166.29201)">
-    <rect
+    <path
        style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.00564512;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4136"
-       width="460.62427"
-       height="17.71089"
-       x="522.07861"
-       y="631.75592" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.26204512;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4138-6"
-       width="17.454489"
-       height="354.06866"
-       x="568.25214"
-       y="279.84433" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.26345816;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4138-56"
-       width="17.643311"
-       height="354.06726"
-       x="685.18195"
-       y="279.84503" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.26345816;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4138-86"
-       width="17.643311"
-       height="354.06726"
-       x="802.01599"
-       y="279.84503" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.26345816;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4138-35"
-       width="17.643311"
-       height="354.06726"
-       x="918.84998"
-       y="279.84503" />
+       d="M 99.34375 113.55273 L 99.34375 465.46484 L 53.169922 465.46484 L 53.169922 483.17383 L 513.79492 483.17383 L 513.79492 465.46484 L 467.58398 465.46484 L 467.58398 113.55273 L 449.94141 113.55273 L 449.94141 465.46484 L 350.75 465.46484 L 350.75 113.55273 L 333.10742 113.55273 L 333.10742 465.46484 L 233.91602 465.46484 L 233.91602 113.55273 L 216.27344 113.55273 L 216.27344 465.46484 L 116.79883 465.46484 L 116.79883 113.55273 L 99.34375 113.55273 z "
+       transform="translate(468.90849,166.29201)"
+       id="rect4136" />
   </g>
 </svg>
