@@ -2,11 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="160.00999mm"
@@ -17,7 +19,79 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="planche bas.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <pattern
+       inkscape:isstock="true"
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect5052"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <linearGradient
+       id="linearGradient5043"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5045" />
+    </linearGradient>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5029"
+       id="pattern5037"
+       patternTransform="translate(-2.03125e-6,-1.4248047e-5)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="22.662178"
+       height="35.966197"
+       patternTransform="translate(537.66291,357.10379)"
+       id="pattern4304">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4302"
+         d="M 0.42582917,35.704149 22.236349,0.26204869"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="40.864809"
+       height="51.328198"
+       patternTransform="translate(519.68408,352.27559)"
+       id="pattern5029">
+      <rect
+         transform="matrix(0.7829295,0.62211044,-0.62211044,0.7829295,0,0)"
+         y="-25.270079"
+         x="31.842548"
+         height="65.304092"
+         width="0.2409745"
+         id="rect5027"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="40.864807"
+       height="51.328197"
+       patternTransform="translate(519.68408,352.2756)"
+       id="pattern5034">
+      <rect
+         id="rect5032"
+         y="-5.6843419e-014"
+         x="0"
+         height="51.328197"
+         width="40.864807"
+         style="fill:url(#pattern5037);stroke:none" />
+    </pattern>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +99,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.9343635"
-     inkscape:cx="167.05563"
-     inkscape:cy="407.16224"
+     inkscape:zoom="4.1498167"
+     inkscape:cx="140.66083"
+     inkscape:cy="448.66965"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -91,7 +165,7 @@
        x="685.07965"
        y="265.56946" />
     <path
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.03487747;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#Strips1_1);fill-opacity:1.0;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.03487747;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4150"
        sodipodi:type="arc"
        sodipodi:cx="576.97937"
