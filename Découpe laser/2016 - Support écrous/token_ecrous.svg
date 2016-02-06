@@ -20,24 +20,6 @@
    sodipodi:docname="token_ecrous.svg">
   <defs
      id="defs4">
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#Wavy"
-       id="pattern5634"
-       patternTransform="translate(2.5095742,0.78424193)" />
-    <pattern
-       inkscape:isstock="true"
-       inkscape:stockid="Wavy"
-       id="Wavy"
-       height="5.1805778"
-       width="30.066020"
-       patternUnits="userSpaceOnUse"
-       inkscape:collect="always">
-      <path
-         id="path5499"
-         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
-         style="fill:black;stroke:none;" />
-    </pattern>
     <linearGradient
        id="linearGradient5043"
        osb:paint="solid">
@@ -122,14 +104,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.1877918"
-     inkscape:cx="135.35062"
-     inkscape:cy="460.16598"
+     inkscape:zoom="4.5082184"
+     inkscape:cx="132.62265"
+     inkscape:cy="506.33672"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="838"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -174,23 +156,23 @@
      id="layer1"
      transform="translate(-468.90849,-166.29201)">
     <path
-       style="fill:url(#pattern5634);fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.03543307;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4150"
        sodipodi:type="arc"
-       sodipodi:cx="607.80499"
-       sodipodi:cy="248.69582"
+       sodipodi:cx="607.58319"
+       sodipodi:cy="247.91156"
        sodipodi:rx="53.131893"
        sodipodi:ry="53.131893"
        sodipodi:start="6.2610022"
        sodipodi:end="6.2592219"
        sodipodi:open="true"
-       d="m 660.92381,247.51728 a 53.131893,53.131893 0 0 1 -51.91664,54.29683 53.131893,53.131893 0 0 1 -54.31993,-51.89248 53.131893,53.131893 0 0 1 51.86829,-54.34301 53.131893,53.131893 0 0 1 54.3661,51.8441" />
+       d="m 660.70201,246.73303 a 53.131893,53.131893 0 0 1 -51.91664,54.29682 53.131893,53.131893 0 0 1 -54.31993,-51.89247 53.131893,53.131893 0 0 1 51.86829,-54.34302 53.131893,53.131893 0 0 1 54.3661,51.8441" />
     <path
        sodipodi:type="star"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:1.77165353;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4206"
        sodipodi:sides="6"
-       sodipodi:cx="607.80498"
+       sodipodi:cx="607.58318"
        sodipodi:cy="247.91156"
        sodipodi:r1="48.465237"
        sodipodi:r2="22.111956"
@@ -199,7 +181,7 @@
        inkscape:flatsided="true"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 649.42787,272.73925 -42.31285,23.63264 -41.62289,-24.82769 0.68996,-48.46033 42.31286,-23.63264 41.62289,24.82769 z"
+       d="m 649.20607,272.73925 -42.31285,23.63263 -41.62289,-24.82769 0.68996,-48.46032 42.31285,-23.63264 41.6229,24.82769 z"
        inkscape:transform-center-x="1.5683825"
        inkscape:transform-center-y="2.7034839" />
     <rect
@@ -207,22 +189,22 @@
        id="rect4138"
        width="17.657675"
        height="17.657677"
-       x="598.97614"
+       x="598.75433"
        y="239.08272" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:22.99089241px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="586.62708"
+       style="font-style:normal;font-weight:normal;font-size:22.99089241px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="586.40527"
        y="232.69592"
        id="text5798"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5800"
-         x="586.62708"
+         x="586.40527"
          y="232.69592"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';fill:#999999;">token</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';fill:#999999">token</tspan></text>
     <g
-       transform="matrix(0.048153,0,0,0.048153,586.5869,256.68375)"
+       transform="matrix(0.048153,0,0,0.048153,586.36509,256.68375)"
        id="layer1-7"
        inkscape:label="Calque 1">
       <g
