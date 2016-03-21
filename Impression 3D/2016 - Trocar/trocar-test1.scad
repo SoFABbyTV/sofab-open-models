@@ -6,7 +6,7 @@ $fn=30;
 // Note: terms "upper" and "lower" refer to the use of the tool; the drawing is reversed to allow 3D printing.
 
 // customizable params
-washerThickness=5;
+washerThickness=4;
 toolDiameter=5;
 holeClearance=0.2;
 wallThickness=1;
