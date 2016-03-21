@@ -1,3 +1,5 @@
+$fn=30;
+
 // Simple trocar for laparoscopic trainer
 // Author: Francesco Grondona
 // Description: the trocar is designed to fit into the hole of a latex washer, cone shaped side eases its insertion.
@@ -18,7 +20,7 @@ stopDiameter=outerDiameter+8;
 difference() {
     union() {
         // main pipe
-        cylinder(h=3+washerThickness+stopThickness+coneThickness, d=outerDiameter, center=false);
+        cylinder(h=2+washerThickness+stopThickness+coneThickness, d=outerDiameter, center=false);
         // upper stop
         cylinder(h=stopThickness, d=stopDiameter, center=false);
         // lower cone
