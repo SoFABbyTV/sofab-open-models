@@ -18,7 +18,7 @@ stopDiameter=outerDiameter+6;
 difference() {
     union() {
         // main pipe
-        cylinder(h=5+washerThickness+stopThickness+coneThickness, d=outerDiameter, center=false);
+        cylinder(h=3+washerThickness+stopThickness+coneThickness, d=outerDiameter, center=false);
         // upper stop
         cylinder(h=stopThickness, d=stopDiameter, center=false);
         // lower cone
@@ -27,5 +27,5 @@ difference() {
         }
     }
     // center hole
-    cylinder(h=20, d=innerDiameter, center=false);
+    cylinder(h=10+washerThickness+stopThickness+coneThickness, d=innerDiameter, center=false);
 }
