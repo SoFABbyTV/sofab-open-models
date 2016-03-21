@@ -12,20 +12,17 @@ wallThickness=1;
 innerDiameter=toolDiameter+holeClearance;
 outerDiameter=innerDiameter+2*wallThickness;
 stopDiameter=outerDiameter+6;
+stopThickness=2;
 
 difference() {
     union() {
         // main pipe
-        translate([0,0,5]){
-            cylinder(h=10+washerThickness, d=outerDiameter, center=false);
-        }
+        cylinder(h=10+washerThickness, d=outerDiameter, center=false);
         // upper stop
-        translate([0,0,-5]){
-            cylinder(h=2, d=stopDiameter, center=true);
-        }
+        cylinder(h=2, d=stopDiameter, center=false);
         // lower stop/cone
         translate([0,0,5]){
-            cylinder(h=5, d1=stopDiameter, d2=outerDiameter, center=true);
+            cylinder(h=5, d1=stopDiameter, d2=outerDiameter, center=false);
         }
     }
     // center hole
