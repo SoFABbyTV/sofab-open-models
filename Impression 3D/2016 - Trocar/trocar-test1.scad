@@ -1,8 +1,10 @@
 // Simple trocar for laparoscopic trainer
 // Author: Francesco Grondona
-// Description: the trocar is designed to fit into the hole of a latex washer, cone shaped side eases its insertion. Diameter of laparoscopy tool, relevant clearance and pipe wall thickness can be customized.
+// Description: the trocar is designed to fit into the hole of a latex washer, cone shaped side eases its insertion. Diameter of washer thickness, laparoscopy tool, relevant clearance and pipe wall thickness can be customized.
+// Note: terms "upper" and "lower" refer to the use of the tool; the drawing is reversed to allow 3D printing.
 
 // customizable params
+washerThickness=5;
 toolDiameter=5;
 holeClearance=0.2;
 wallThickness=1;
