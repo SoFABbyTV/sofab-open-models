@@ -16,7 +16,9 @@ stopDiameter=outerDiameter+6;
 difference() {
     union() {
         // main pipe
-        cylinder(h=15, d=outerDiameter, center=true);
+        translate([0,0,5]){
+            cylinder(h=10+washerThickness, d=outerDiameter, center=false);
+        }
         // upper stop
         translate([0,0,-5]){
             cylinder(h=2, d=stopDiameter, center=true);
