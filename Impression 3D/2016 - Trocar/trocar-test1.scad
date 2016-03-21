@@ -13,7 +13,7 @@ coneThickness=5;
 
 innerDiameter=toolDiameter+holeClearance;
 outerDiameter=innerDiameter+2*wallThickness;
-stopDiameter=outerDiameter+6;
+stopDiameter=outerDiameter+8;
 
 difference() {
     union() {
@@ -27,5 +27,7 @@ difference() {
         }
     }
     // center hole
-    cylinder(h=10+washerThickness+stopThickness+coneThickness, d=innerDiameter, center=false);
+    translate([0,0,-1]){
+        cylinder(h=10+washerThickness+stopThickness+coneThickness, d=innerDiameter, center=false);
+    }
 }
