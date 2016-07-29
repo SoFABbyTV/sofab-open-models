@@ -1,0 +1,15 @@
+La retro gaming box est un projet open hardware / open source, en partenariat avec arcademy, le fablab de Sophia Antipolis : SoFAB et le système retro-gaming pour raspberry pi recalbox. 
+
+Sa Notice de fabrication et ça vidéo de montage vous permet de vous fabriquer, pour moins de 99 euros, une console de jeux incluant un mini ordinateur de type raspberry pi, afin de rejouer a une multitude de vieux jeux d'arcade ou de vieilles consoles de jeux comme la nintendo nes ou la sega megadrive sur votre télévision !
+
+Support de formation dans les fablabs, sa fabrication vous permettra de vous familiarisez a l'utilisation de la découpeuse laser, outil numérique disponible dans les fablabs et dans certains magasins de bricolage.  vous y  apprendrez à souder, sera initié a l'utilisation d'un raspberry pi,...
+
+Nous vous proposons un atelier d'une aprés-midi pour suivre toutes les etapes de la fabrication de la retro baming box :
+- découpe laser des éléments bois
+- Assemblage de la boite
+- Installation des éléments arcades et du raspberry pi
+- Soudure (apprentissage a la soudure) des fils électriques pour relier les boutons et le joystick au gpio du raspberry pi
+- Création de la carte SD pour l'instalation de la distribution recalbox pour raspberry pi
+- Modifications a apporter (via connection SSH) a la distribution pour faire fonctionner les boutons et le joystick connectés aux GPIO du rpi.
+- Tests de la retro gaming box
+- Questions / Reponses.
